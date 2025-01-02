@@ -74,6 +74,12 @@ App: market
 Instance: path_to_/E-commerce/ecommerce-lab/instance
 >>> 
 ```
+<!-- Generate Random Key -->
+```shell
+>>> import os
+>>> os.urandom(12).hex()
+'f86f5random_key_generated_951ed'
+```
 
 <!-- Check Docker -->
 ```shell

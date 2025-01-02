@@ -2,3 +2,6 @@ Flask
 gunicorn
 flask-sqlalchemy
 alembic
+flask-wtf
+wtforms
+email-validator
